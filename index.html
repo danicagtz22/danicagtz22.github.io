@@ -9,13 +9,13 @@
     <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=IBM+Plex+Mono:wght@300;400;500&display=swap" rel="stylesheet">
     <style>
         :root {
-            --bg-primary: #0a0a0a;
-            --bg-secondary: #141414;
-            --text-primary: #ffffff;
-            --text-secondary: #a0a0a0;
-            --accent: #00ff88;
-            --accent-dim: #00cc6a;
-            --border: #2a2a2a;
+            --bg-primary: #0f1419;
+            --bg-secondary: #1a1f29;
+            --text-primary: #e8eaed;
+            --text-secondary: #9ba3af;
+            --accent: #f4a261;
+            --accent-dim: #e76f51;
+            --border: #2d3748;
         }
 
         * {
@@ -40,8 +40,8 @@
             left: -50%;
             width: 200%;
             height: 200%;
-            background: radial-gradient(circle at 50% 50%, rgba(0, 255, 136, 0.03) 0%, transparent 50%),
-                        radial-gradient(circle at 80% 20%, rgba(0, 255, 136, 0.02) 0%, transparent 50%);
+            background: radial-gradient(circle at 50% 50%, rgba(244, 162, 97, 0.03) 0%, transparent 50%),
+                        radial-gradient(circle at 80% 20%, rgba(231, 111, 81, 0.02) 0%, transparent 50%);
             animation: gradientShift 20s ease infinite;
             pointer-events: none;
             z-index: 0;
@@ -308,7 +308,7 @@
         .project-card:hover {
             transform: translateY(-8px);
             border-color: var(--accent);
-            box-shadow: 0 20px 40px rgba(0, 255, 136, 0.1);
+            box-shadow: 0 20px 40px rgba(244, 162, 97, 0.1);
         }
 
         .project-number {
@@ -341,10 +341,10 @@
 
         .tag {
             padding: 0.4rem 1rem;
-            background: rgba(0, 255, 136, 0.1);
+            background: rgba(244, 162, 97, 0.1);
             color: var(--accent);
             font-size: 0.8rem;
-            border: 1px solid rgba(0, 255, 136, 0.2);
+            border: 1px solid rgba(244, 162, 97, 0.2);
         }
 
         .project-links {
@@ -738,20 +738,17 @@
                     I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision.
                 </p>
                 <div class="contact-links">
-                    <a href="mailto:your.email@example.com" class="contact-link">
+                    <a href="mailto:danicagtz12@gmail.com" class="contact-link">
                         📧 Email
                     </a>
-                    <a href="https://github.com/yourusername" class="contact-link" target="_blank">
+                    <a href="https://github.com/danicagtz22" class="contact-link" target="_blank">
                         🔗 GitHub
                     </a>
                     <a href="https://www.linkedin.com/in/danica-gutierrez/" class="contact-link" target="_blank">
                         💼 LinkedIn
                     </a>
-                    <a href="https://twitter.com/yourhandle" class="contact-link" target="_blank">
-                        🐦 Twitter
-                    </a>
                 </div>
-                <a href="mailto:your.email@example.com" class="btn btn-primary"><span>Send Me a Message</span></a>
+                <a href="mailto:danicagtz12@gmail.com" class="btn btn-primary"><span>Send Me a Message</span></a>
             </div>
         </div>
     </section>
@@ -763,7 +760,7 @@
         </div>
     </footer>
 
-    <script>
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
         // Smooth scrolling for navigation links
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
             anchor.addEventListener('click', function (e) {
@@ -816,12 +813,4 @@
             });
 
             navLinks.forEach(link => {
-                link.classList.remove('active');
-                if (link.getAttribute('href').slice(1) === current) {
-                    link.classList.add('active');
-                }
-            });
-        });
-    </script>
-</body>
-</html>
+                link.classList.remove('active'
